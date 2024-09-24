@@ -180,27 +180,12 @@
 
 
 
-    // function updatedDonation(donationAmountId,donationBalanceId,balanceId,modalId){
-    //     const donateAmount = parseFloat(document.getElementById('donation-Amount-Id').value);
-    //     const donationAmount = parseFloat(document.getElementById('donation-Balance-Amount').innerText)
-    //     const totalDonationBalance = donateAmount + donationAmount;
+    const blogBtn = document.getElementById('blog-button')
+    blogBtn.addEventListener('click',function(){
+        window.location.href = "./blog.html"
+    })
 
-    //     document.getElementById(donationBalanceId).innerText = totalDonationBalance;
-
-    //     const balance = parseFloat(document.getElementById('balanceId').innerText);
-    //     const reamningBalance = balance - donateAmount;
-    //     document.getElementById(balanceId).innerText = reamningBalance;
-        
-
-    //     document.getElementById(modalId).showModal();
-    //     return {
-    //         totalDonationBalance : totalDonationBalance,
-    //         reamningBalance : reamningBalance
-    //     }
-    // }
-
-
-    // const donatebtn = document.getElementById('donatebtn');
-    // donatebtn.addEventListener('click', function(){
-    //     function updatedDonation(donationBalance2,){}
-    // })
+    const homeBtn = document.getElementById('home-button');
+    homeBtn.addEventListener('click', function(){
+        window.location.href = "./index.html"
+    })
